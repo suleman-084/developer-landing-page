@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@1,700&family=Orbitron:wght@400;600;900&family=Oswald:wght@700&family=Poppins:ital,wght@0,500;0,700;0,900;1,300&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'poppins';
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f8f8fa;
+    overflow-x: hidden;
+    
+}
+header{
+    background-color: #4617FE;
+
+}
+
+.top1{
+    display: flex;
+    flex-direction:row-reverse ;
+    justify-content: space-between;
+}
+nav{
+    margin-top: 25px;
+    margin-left:70px;
+}
+.nav-item{
+    margin-right: 30px;
+    color: #fff;
+    font-size: 14px;
+
+}
+.nav-item-active{
+    font-size: 13px;
+    border: 1px solid #fff;
+    padding: 2px 5px;
+    background-color: #fff;
+    color: #4617FE;
+    margin-right: 20px;
+}
+.logo{
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+.top11{
+    display: flex;
+    flex-direction: row;
+}
+.header-text{
+    margin-left: 70px;
+    margin-top: 80px;
+}
+.header-text h2{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 5px;
+}
+.header-text p{
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 8rem;
+}
+.header-image{
+    right: 0;
+    position: absolute;
+    margin-top:  10px;
+    height: 30rem;
+    width: 40rem;
+}
+.companies{
+    margin-left: 6rem;
+    margin-top: 20px;
+
+}
+.company-items{
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-right: 45px;
+    font-family: 'Righteous';
+    font-weight: 400s;
+}
+.api{
+    margin-left: 6rem;
+    margin-top: 5rem;
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.card-active{
+    margin-right: 40px;
+    border: 1px solid #fff;
+    padding: 30px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.card-head-active{
+    margin-top: 10px;
+    color: #5A31FC;
+    font-weight: 500;
+}
+.card-body{
+    font-size: 14px;
+}
+.card{
+    margin-top: 30px;
+    margin-right: 40px;
+}
+.card-head{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.greater{
+    border: 1px solid #5A31FC;
+    border-radius: 50%;
+    padding: 13px 15px 15px 20px;
+    height: 22px;
+    background-color: #4617FE;
+    color: #fff;
+    font-weight: 100;
+    margin-top: 90px;
+}
+.blog-heading{
+    margin-left: 6rem;
+    margin-top: 5rem;
+}
+.blog-cards{
+    display: flex;
+    flex-direction: row;
+}
+.blog-card{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6rem;
+    margin-top: 3rem;
+    border: 1px solid #fff;
+    border-width: fit-content;
+    background-color: #fff;
+    width: fit-content;
+    height: fit-content;
+    border-top-left-radius: 55px;
+}
+.blog-heading span{
+    right: 0;
+    position: absolute;
+    color: #4617FE;
+    margin-right: 4rem;
+}
+.blog-content{
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.blog-content h6{
+    color: #4617FE;
+}
+.blog-content h3{
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
+}
+.blog-content small{
+    margin-top: 70px;
+}
+.arrange{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+    position: absolute;
+    margin-top: 17.5rem;
+    margin-left: 25rem;
+}
+.arange2{
+    margin-top: 17.5rem;
+    margin-left: -11.5rem;
+}
+.blog-author1{
+    margin-left: 4rem;
+
+}
+.blog-author11{
+    margin-top: -4rem;
+}
+.blog-author{
+    margin-left: 0.5rem;
+}
+.blog-image img{
+    height: 20rem;
+    width: 22rem;
+}
+.faq-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    
+    background-color: #E9EDFF;
+}
+.faq-content{
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+.faq-content h2{
+    font-size: 40px;
+}
+.faq-content h4:nth-child(2){
+    font-size:13px ;
+    font-weight: 100;
+    margin-top:10px ;
+
+}
+.faq-content h4:nth-child(3){
+    font-weight: 600;
+    margin-top: 20px;
+}
+.faq-content button{
+    background-color: #5A31FC;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    color: #fff;
+}
+.faq-image img{
+    height: 22rem;
+    width: 50rem;
+}
+.download-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 8rem;
+    margin-left: 100px;
+    margin-bottom: 6rem;
+}
+.download-content span{
+    font-weight: 300;
+}
+.download-content {
+    margin-right: 30rem;
+}
+.download-email{
+    height: fit-content;
+    width: fit-content;
+}
+.download-email input{
+    border: none;
+    padding: 15px 25rem 15px 30px;
+    background-color: #E9EDFF;
+    border-radius: 40px;
+}
+::placeholder{
+    font-weight: 400;
+    color: black;
+}
+.download-email button{
+    padding: 10px 35px;
+    background-color: #4516FE;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    right: 0;
+    position: absolute;
+    margin-top: 5px;
+    margin-right: 112px;
+}
+.footer-section{
+    background-color: #4516FE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+.footer-left{
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+} 
+.list-items{
+    margin-right: 30px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+.list li:nth-child(2){
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+.list li:nth-child(3){
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+.list li:nth-child(4){
+    border-right: 1px solid #fff;
+    padding-right: 20px;
+}
+.footer-right{
+    margin-top: 30px;
+    margin-left: 18rem;
+
+}
+.footer-logos{
+   margin-right: 10px;
+}
+.logos-list{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 16rem;
+
+}
+.logos-list li:nth-child(1){
+    border-right: 1px solid #fff;
+    padding-right: 25px;
+}
+.logos-list li:nth-child(2){
+    border-right: 1px solid #fff;
+    padding-right: 25px;
+}
