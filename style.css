@@ -331,3 +331,141 @@ nav{
     border-right: 1px solid #fff;
     padding-right: 25px;
 }
+
+
+@media only screen and (max-width:730px) {
+    .nav-item {
+        display: none;
+    }
+    .header-text h2 {
+        margin-top: 15rem;
+        font-size: 25px;
+    }
+    .header-text p {
+        /* margin-top: 25rem; */
+        font-size: 15px;
+    }
+    .header-image {
+        height: 18rem;
+        width: 35rem;
+    }
+    .header-text img {
+        display: none;
+    }
+    .companies {
+        margin-left: 20px;
+        
+    }
+    .company-items {
+        font-size: 15px;
+    }
+   .Logoo img {
+    margin-left: 20px;
+   }
+    .check img {
+      margin-right: 6rem;
+    }
+    .nav-item-active {
+        margin-right: 30px;
+    }
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .greater {
+        display: none;
+    }
+    .blog-cards {
+        display: flex;
+        flex-direction: column;
+    }
+    .blog-heading h1 {
+       font-size: 25px;
+       margin-left: -5rem;
+    }
+    .blog-heading span {
+        font-size: 15px;
+        margin-right: 2rem;
+    }
+    .blog-image img {
+        height: 15rem;
+        width: 15rem;
+    }
+    .blog-content h3 {
+        font-size: 15px;
+    }
+    .arrange {
+        left: 0;
+        top: 125rem;
+    }
+    .blog-bottom img {
+        height: 30px;
+    }
+    .blog-author {
+        font-size: 15px;
+        font-weight: 300;
+    }
+    .arange2 {
+        display: none;
+    }
+    .faq-section {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .faq-content h2 {
+        font-size: 25px;
+    }
+    .faq-content h4 {
+        font-size: 15px;
+    }
+    .faq-image img {
+        height: 12rem;
+        width: 30rem;
+        margin-top: 5rem;
+        
+    }
+    .faq-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .download-section {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .download-content h1{
+        font-size: 20px;
+        position: absolute;
+        left: 0;
+        margin-right: 60px;
+    }
+    .download-email {
+        margin-top: 40px;
+        position: absolute;
+        left: 0;
+    }
+    .footer-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer-logo {
+        height: 28px;
+        margin-left: -60px;
+    }
+    .list {
+        margin-left: -50px;
+    }
+    .footer-right {
+        margin-left: 20px;
+
+    }
+    .logos-list {
+        margin-left: 27px;
+        margin-bottom: 80px;
+    }
+ 
+}
